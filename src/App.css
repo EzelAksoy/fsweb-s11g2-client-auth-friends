@@ -1,3 +1,100 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+}
+
+.Header {
+  background-color: rgb(252, 255, 255);
+  border-bottom: 2px solid rgb(6, 6, 6);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+.Header h1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.Header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_button {
+  display: flex;
+  justify-content: space-between;
+  border: 0.1rem solid rgb(6, 6, 6);
+  padding: 1rem;
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.Login_form {
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+}
+.Login_input {
+  display: block;
+  margin: 1.5rem auto 0rem auto;
+  width: 40vw;
+}
+.Login_input input {
+  display: block;
+  width: 39.5vw;
+  height: 8vh;
+  background-color: black;
+  color: white;
+}
+
+.Login_input label {
+  height: 1.5rem;
+  display: block;
+  margin: 0.2rem 0rem;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Login_baslik {
+  font-size: 3rem;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+button {
+  font-size: 1rem;
+  width: 40vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.friend_başlık {
+  margin: 2rem auto 0rem 0.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.friends {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.Friend {
+  display: block;
+
+  max-width: fit-content;
+  text-align: left;
+  margin: 0 auto;
 }
